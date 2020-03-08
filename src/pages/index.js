@@ -1,3 +1,13 @@
-import React from "react"
+import React from 'react';
 
-export default () => <div>Hello world!</div>
+
+import  MonacoWindow, {EditorContainer}  from "../components/monaco"
+
+
+
+
+
+export default () => <div>Hello world!
+
+    <MonacoWindow/>
+</div>
